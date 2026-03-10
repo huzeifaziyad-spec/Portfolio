@@ -84,11 +84,6 @@ const About = () => {
               image={"assets/logos/typeScript.png"}
               containerRef={grid2Container}
             />
-            <Card
-              style={{ rotate: "-45deg", left: "10%", top: "60%" }}
-              image={"assets/logos/typeScript.png"}
-              containerRef={grid2Container}
-            />
           </div>
         </div>
         {/* Grid 3 */}
