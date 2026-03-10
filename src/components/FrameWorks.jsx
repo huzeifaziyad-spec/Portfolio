@@ -7,18 +7,18 @@ export function Frameworks() {
     "git",
     "html5",
     "javascript",
-    "microsoft",
+    "typeScript",
     "react",
     "php",
     "tailwindcss",
     "vitejs",
-    "wordpress",
+    "threejs",
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">
       <OrbitingCircles iconSize={40}>
         {skills.map((skill, index) => (
-          <Icon key={index} src={`assets/logos/${skill}.svg ||`} />
+          <Icon key={index} src={`assets/logos/${skill}.svg`} />
         ))}
       </OrbitingCircles>
       <OrbitingCircles iconSize={25} radius={100} reverse speed={2}>

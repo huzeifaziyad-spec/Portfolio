@@ -1,17 +1,18 @@
 export const myProjects = [
   {
     id: 1,
-    title: "HabitFlow",
+    title: "StoreIt",
     description:
-      "Enables users to monitor daily habits and routines, helping them build consistency, improve productivity, and achieve personal goals effectively.",
+      "StoreIt is a full-stack file storage and sharing platform designed to work like a simplified version of Google Drive. It focuses on helping users manage their digital assets with a highly visual and organized interface.",
     subDescription: [
-      "Engineered a fully responsive habit tracking interface using semantic HTML5, modern CSS3 (Flexbox and Grid), and vanilla JavaScript to ensure optimal performance across devices.",
-      "Developed interactive features including dynamic DOM manipulation, progress visualization, and persistent data storage using the browser’s Local Storage API to enhance user experience."
+      "StoreIt is a full-stack file storage and sharing platform designed to work like a simplified version of Google Drive. It focuses on helping users manage their digital assets with a highly visual and organized interface.",
+      "Users can upload, organize, and share files through a modern, responsive interface. The platform supports secure file management with features like file preview, folder organization, and easy sharing options.",
+      "The project features a clean, intuitive dashboard, drag-and-drop file uploads, and real-time status updates, making it an excellent tool for personal file management and collaboration."
       
     ],
-    href: "",
+    href: "https://storage-managment-2wxpfboh3-huzeifaziyad-specs-projects.vercel.app/",
     logo: "",
-    image: "/assets/projects/Habitflow.png",
+    image: "/assets/projects/storeit.png",
     tags: [
       {
         id: 1,
