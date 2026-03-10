@@ -68,7 +68,6 @@ export const myProjects = [
     subDescription: [
       "Built a responsive and user-friendly interface using HTML5, CSS3, and JavaScript for seamless browsing and interaction.",
       "Implemented server-side functionality with PHP to handle user requests, book listings, and purchase processes.",
-      "Integrated MySQL database for storing books, users, and orders, enabling secure and efficient data management."
     ],
     href: "",
     logo: "",
@@ -104,7 +103,6 @@ export const myProjects = [
     subDescription: [
       "Built a component-based architecture with React and TypeScript for reusable, maintainable, and scalable UI elements.",
       "Implemented smooth animations, interactive project displays, and responsive layouts using CSS3 and modern design practices.",
-      "Optimized performance and build speed with Vite, ensuring fast load times and seamless user experience.",
     ],
     href: "",
     logo: "",

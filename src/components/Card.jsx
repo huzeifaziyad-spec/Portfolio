@@ -6,7 +6,7 @@ const Card = ({ style, text, image, containerRef }) => {
       src={image}
       className="absolute w-15 cursor-grab"
       style={style}
-      whileHover={{ scale: 1.05 }}
+      whileHover={{ scale: 1.05 }}  
       drag
       dragConstraints={containerRef}
       dragElastic={1}

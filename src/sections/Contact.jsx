@@ -12,7 +12,7 @@ const Contact = () => {
   const [isLoading, setisLoading] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
   const [alertType, setAlertType] = useState("success");
-  const [alertMessage, setAlertMessage] = useState(""); 
+  const [alertMessage, setAlertMessage] = useState("");
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
@@ -20,28 +20,36 @@ const Contact = () => {
     setAlertType(type);
     setAlertMessage(message);
     setShowAlert(true);
-  }
-  const handleSubmit = async(e) => {
+  };
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setisLoading(true);
 
     try {
-        console.log("form submitted", formData);
-      await emailjs.send("service_9qnsagr", "template_20zsmrb", {
-        from_name: formData.name,
-        to_name: "Ziyad",
-        from_email: formData.email,
-        to_email: "huzeifaziyad@gmail.com",
-        message: formData.message,
-        }, '9sfg4I9EGqkqKYwLl');
+      console.log("form submitted", formData);
+      await emailjs.send(
+        "service_9qnsagr",
+        "template_20zsmrb",
+        {
+          from_name: formData.name,
+          to_name: "Ziyad",
+          from_email: formData.email,
+          to_email: "huzeifaziyad@gmail.com",
+          message: formData.message,
+        },
+        "9sfg4I9EGqkqKYwLl",
+      );
 
-        setisLoading(false);
-        showAlertMessage("success", "Message sent successfully!");
-        setFormData({name: "", email: "", message: ""});
+      setisLoading(false);
+      showAlertMessage("success", "Message sent successfully!");
+      setFormData({ name: "", email: "", message: "" });
     } catch (error) {
-        setisLoading(false);
-        console.error("Error sending email:", error);
-        showAlertMessage("danger", "Failed to send message, Please try again later!");
+      setisLoading(false);
+      console.error("Error sending email:", error);
+      showAlertMessage(
+        "danger",
+        "Failed to send message, Please try again later!",
+      );
     }
 
     //service_9qnsagr
@@ -49,15 +57,18 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="relative flex items-center c-space section-spacing">
-        <Particles
+    <section
+      id="contact"
+      className="relative flex items-center c-space section-spacing"
+    >
+      <Particles
         className="absolute inset-0 z-50"
         quantity={100}
         ease={80}
         color={"#ffffff"}
         refresh
       />
-        {showAlert &&<Alert type={alertType} text={alertMessage} />}
+      {showAlert && <Alert type={alertType} text={alertMessage} />}
       <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Get In Touch</h2>
