@@ -17,17 +17,22 @@ export const myProjects = [
       {
         id: 1,
         name: "html5",
-        path: "/assets/logos/html5.svg",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
         name: "css3",
-        path: "/assets/logos/css3.svg",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 3,
+        name: "javascript",
+        path: "/assets/logos/typeScript.svg",
       },
       {
         id: 4,
         name: "javascript",
-        path: "/assets/logos/javascript.svg",
+        path: "/assets/logos/nextjs.svg",
       },
     ],
   },
@@ -70,7 +75,7 @@ export const myProjects = [
       "Built a responsive and user-friendly interface using HTML5, CSS3, and JavaScript for seamless browsing and interaction.",
       "Implemented server-side functionality with PHP to handle user requests, book listings, and purchase processes.",
     ],
-    href: "",
+    href: "https://thebooknook.great-site.net/",
     logo: "",
     image: "/assets/projects/bookstore.png",
     tags: [
@@ -133,33 +138,30 @@ export const myProjects = [
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "Off-Stream",
     description:
       "A fully customizable WordPress theme optimized for performance and SEO.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "Movie App is a modern web application that allows users to discover, search, and explore movies from different genres. Users can view movie details such as ratings, release dates, cast, trailers, and summaries in an easy-to-use interface."
     ],
-    href: "",
+    href: "https://movie-app-off-time-13.vercel.app/",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/off-stream.png",
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
         name: "HTML5",
         path: "/assets/logos/html5.svg",
       },
       {
-        id: 3,
+        id: 2,
         name: "CSS3",
         path: "/assets/logos/css3.svg",
+      },
+      {
+        id: 3,
+        name: "javascript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
@@ -179,24 +181,24 @@ export const myProjects = [
       "Added a quiz system with dynamic question generation and real-time grading.",
       "Integrated Stripe API for secure payment processing.",
     ],
-    href: "",
+    href: "https://ziyadseyoum-portfolio-cgu6.vercel.app/",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/portfolio.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "typeScript",
+        path: "/assets/logos/typeScript.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "vite",
+        path: "/assets/logos/vitejs.svg",
       },
       {
         id: 4,

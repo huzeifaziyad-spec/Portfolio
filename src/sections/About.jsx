@@ -66,7 +66,7 @@ const About = () => {
             />
             <Card
               style={{ rotate: "30deg", left: "70%", top: "70%" }}
-              image={"assets/logos/nextjs.png"}
+              image={"assets/logos/nextjs.svg"}
               containerRef={grid2Container}
             />
             <Card
@@ -81,7 +81,7 @@ const About = () => {
             />
             <Card
               style={{ rotate: "-45deg", left: "10%", top: "60%" }}
-              image={"assets/logos/typeScript.png"}
+              image={"assets/logos/typeScript.svg"}
               containerRef={grid2Container}
             />
           </div>
