@@ -172,14 +172,12 @@ export const myProjects = [
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "freeLancer",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "A freelance platform that connects freelancers with clients looking for various services.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Build a responsive and user-friendly interface using React, TypeScript, and Vite for seamless browsing and interaction.",
+      "responsive contact form",
     ],
     href: "https://ziyadseyoum-portfolio-cgu6.vercel.app/",
     logo: "",
