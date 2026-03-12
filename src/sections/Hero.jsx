@@ -1,5 +1,5 @@
 import { Astronat } from "../components/Astronat";
-import HeroText from "../components/Herotext";
+import HeroText from "../components/HeroText";
 import ParallaxBackground from "../components/ParallaxBackground";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Float, OrbitControls } from "@react-three/drei";
