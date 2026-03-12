@@ -20,6 +20,10 @@ const Contact = () => {
     setAlertType(type);
     setAlertMessage(message);
     setShowAlert(true);
+
+    setTimeout(() => {
+      setShowAlert(false);
+    }, 3000);
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
