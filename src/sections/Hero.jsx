@@ -21,7 +21,7 @@ const Hero = () => {
           <Suspense fallback = {<Loader />}>
             <Float>
               <Astronat
-                scale={isMobile && 0.23}
+                scale={isMobile && 0.24}
                 position={isMobile && [0, -1.5, 0]}
               />
             </Float>
