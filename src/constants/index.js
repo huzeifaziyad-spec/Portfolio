@@ -10,7 +10,7 @@ export const myProjects = [
       "The project features a clean, intuitive dashboard, drag-and-drop file uploads, and real-time status updates, making it an excellent tool for personal file management and collaboration."
       
     ],
-    href: "storage-managment-zeta.vercel.app",
+    href: "https://storage-managment-zeta.vercel.app",
     logo: "",
     image: "/assets/projects/storeit.png",
     tags: [
