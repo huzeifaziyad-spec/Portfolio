@@ -1,4 +1,3 @@
-import { img } from "motion/react-client";
 import { motion } from "motion/react";
 const Card = ({ style, text, image, containerRef }) => {
   return image && !text ? (
