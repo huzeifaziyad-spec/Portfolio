@@ -8,7 +8,7 @@ export const myProjects = [
       "StoreIt is a full-stack file storage and sharing platform designed to work like a simplified version of Google Drive. It focuses on helping users manage their digital assets with a highly visual and organized interface.",
       "Users can upload, organize, and share files through a modern, responsive interface. The platform supports secure file management with features like file preview, folder organization, and easy sharing options.",
       "The project features a clean, intuitive dashboard, drag-and-drop file uploads, and real-time status updates, making it an excellent tool for personal file management and collaboration."
-      
+
     ],
     href: "https://storage-managment-zeta.vercel.app",
     logo: "",
@@ -38,21 +38,23 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Ethio-Endurance",
+    title: "Nexus Health",
     description:
-      "Provides an interactive platform for fitness enthusiasts to explore workout programs, membership plans, trainers, and health resources in one place.",
+      "A modern healthcare web application that provides an interactive platform for users to manage health services, appointments, and medical information through a clean and user-friendly interface.",
     subDescription: [
-      "Built a responsive layout using HTML5 and CSS3 with Flexbox and Grid for cross-device compatibility.",
-      "Added interactive features using JavaScript, including navigation menus, sliders, and form validation."
+      "Developed a responsive and visually appealing UI using React, Tailwind CSS, and modern component-based architecture for seamless user experience across devices.",
+      "Implemented interactive features such as dashboards, navigation systems, and dynamic content rendering to enhance usability and engagement.",
+      "Optimized performance and scalability with efficient state management and fast-loading components, deployed on Vercel for reliable access.",
+      "Focused on clean design principles and structured layouts to simulate real-world healthcare management systems."
     ],
-    href: "",
+    href: "https://nexus-health-taupe.vercel.app",
     logo: "",
-    image: "/assets/projects/Ethio-Endurance.png",
+    image: "/assets/projects/nexus.jpg",
     tags: [
       {
         id: 1,
         name: "html5",
-        path: "/assets/logos/html5.svg",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
@@ -63,6 +65,80 @@ export const myProjects = [
         id: 3,
         name: "javascript",
         path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 4,
+        name: "TypeScript",
+        path: "/assets/logos/Typescript.png",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Movie-App",
+    description:
+      "A modern web application that allows users to discover, search, and explore movies from different genres.",
+    subDescription: [
+      "Movie App is a modern web application that allows users to discover, search, and explore movies from different genres. Users can view movie details such as ratings, release dates, cast, trailers, and summaries in an easy-to-use interface."
+    ],
+    href: "https://movie-app-off-time-13.vercel.app/",
+    logo: "",
+    image: "/assets/projects/movieapp.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 2,
+        name: "CSS3",
+        path: "/assets/logos/css3.svg",
+      },
+      {
+        id: 3,
+        name: "javascript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 4,
+        name: "Vite.js",
+        path: "/assets/logos/vitejs.svg",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Freelance",
+    description:
+      "Developed a modern, responsive portfolio website using React and TypeScript to showcase projects, skills, and professional achievements.",
+    subDescription: [
+      "Built a component-based architecture with React and TypeScript for reusable, maintainable, and scalable UI elements.",
+      "Implemented smooth animations, interactive project displays, and responsive layouts using CSS3 and modern design practices.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/Image_port.png",
+    tags: [
+      {
+        id: 1,
+        name: "vite",
+        path: "/assets/logos/vitejs.svg",
+      },
+      {
+        id: 2,
+        name: "react",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "Git",
+        path: "/assets/logos/git.svg",
+      },
+      {
+        id: 4,
+        name: "TypeScript",
+        path: "/assets/logos/Typescript.png",
       },
     ],
   },
@@ -102,75 +178,6 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
-    title: "Freelance",
-    description:
-      "Developed a modern, responsive portfolio website using React and TypeScript to showcase projects, skills, and professional achievements.",
-    subDescription: [
-      "Built a component-based architecture with React and TypeScript for reusable, maintainable, and scalable UI elements.",
-      "Implemented smooth animations, interactive project displays, and responsive layouts using CSS3 and modern design practices.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/Image_port.png",
-    tags: [
-      {
-        id: 1,
-        name: "vite",
-        path: "/assets/logos/vitejs.svg",
-      },
-      {
-        id: 2,
-        name: "react",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "TypeScript",
-        path: "/assets/logos/typescript.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "Off-Stream",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Movie App is a modern web application that allows users to discover, search, and explore movies from different genres. Users can view movie details such as ratings, release dates, cast, trailers, and summaries in an easy-to-use interface."
-    ],
-    href: "https://movie-app-off-time-13.vercel.app/",
-    logo: "",
-    image: "/assets/projects/off-stream.png",
-    tags: [
-      {
-        id: 1,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 2,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 3,
-        name: "javascript",
-        path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
     id: 6,
     title: "freeLancer",
     description:
@@ -205,6 +212,7 @@ export const myProjects = [
       },
     ],
   },
+
 ];
 
 export const mySocials = [
